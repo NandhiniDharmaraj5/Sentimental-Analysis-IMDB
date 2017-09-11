@@ -7,8 +7,8 @@
 ### How to Run
 **1.** Clone this Repo <br />
 **2.** Install Packages (pip install requirements.txt) <br />
-**2.** Run the project (python sentiment.py) <br />
+**3.** Run the project (python sentiment.py) <br />
 
 ### Sample Comments
-- **Positive: ** This is a good movie 			
-- **Negative: ** This is not a good movie		
+- **Positive:** This is a good movie 			
+- **Negative:** This is not a good movie		
