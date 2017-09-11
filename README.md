@@ -10,5 +10,5 @@
 **2.** Run the project (python sentiment.py) <br />
 
 ### Sample Comments
-- This is a good movie 			**Positive**
-- This is not a good movie		**Negative**
+- **Positive: ** This is a good movie 			
+- **Negative: ** This is not a good movie		
