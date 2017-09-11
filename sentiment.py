@@ -41,40 +41,8 @@ def load_file():
 def preprocess(x):
 
     data,target = load_file()
-
- #    user_data=[]
- #    to_write=[]
- #    user_data=data[-1].split('.')
- #    for y in user_data:
-	# if y:
-	#     z = dependancy.dependancy(y)
-	#     to_write.append(z)
-
- #    new_data=to_write[0].split(' ')
-
- #    for y in new_data:
-	# if y:
-	#     z = common.common(y)
-	#     for m in z:
-	#     	to_write.append(m)
-
- #    string = ""
- #    for y in to_write:
- #    	string = string + y
-
- #    del data[-1]
- #    data.append(string)
-
-    
     count_vectorizer = CountVectorizer(binary='true')
     data = count_vectorizer.fit_transform(data)
-
-    # xyz = data.shape[1]
-    # print ('\nOriginal Dimentions: ' + str(xyz))
-    # xyz = int(xyz * 0.6)
-    # print ('After Fearure Reduction : ' + str(xyz))
-
-    #data_new = SelectKBest(chi2, k=xyz).fit_transform(data,target)
     tfidf_data = TfidfTransformer(use_idf=x).fit_transform(data)
 
     return tfidf_data
@@ -110,9 +78,7 @@ def learn_model(data,target):
 
 #-------------------------------------------------------------------------
     data_test = data_train.getrow(-1);
-
     classifier = sklearn.svm.LinearSVC().fit(xyz,target_train)
-
     predicted = classifier.predict(data_test)
     print predicted
 
