@@ -1,4 +1,5 @@
 # Sentimental-Analysis-IMDB
+This Projects classifies any textual movie review into positive or negative using SVM classifier in scikit learn.
 
 ### Requirements
 - Python
